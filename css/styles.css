@@ -39,7 +39,6 @@ section > div > p:hover {
 .cardtitle {
     position: relative;
     margin-bottom: 2.5em;
-    text-align: center;
 }
 
 .cardtitle h2 {
@@ -50,6 +49,7 @@ section > div > p:hover {
     border-left: 1px solid black;
     padding: .25em 
 }
+
 
 .card p {
     padding: 1em;

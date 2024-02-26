@@ -36,20 +36,13 @@ section > div > p:hover {
     margin: 1rem;
 }
 
-.cardtitle {
-    position: relative;
-    margin-bottom: 2.5em;
-}
-
 .cardtitle h2 {
-    position: absolute;
-    right: 0;
-    top: 0;
-    border-bottom: 1px solid black;
-    border-left: 1px solid black;
-    padding: .25em 
+    float: right;
 }
 
+.cardtitle {
+    margin-bottom: 5px;
+}
 
 .card p {
     padding: 1em;
@@ -161,6 +154,10 @@ section > div > p:hover {
         display: none;
     }
 
+    .cardtitle h2 {
+        padding: .5rem;
+    }
+
 
 }
 
@@ -226,6 +223,10 @@ section > div > p:hover {
     .d-md-none {
         display: none;
     }
+
+    .cardtitle h2 {
+        padding: .25rem;
+    }
 }
 
 /* Mobile view */
@@ -289,6 +290,10 @@ section > div > p:hover {
 
     .d-sm-none {
         display: none;
+    }
+
+    .cardtitle h2 {
+        padding: .5rem;
     }
 
 }

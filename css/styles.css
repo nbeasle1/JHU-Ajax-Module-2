@@ -21,6 +21,16 @@ section {
     margin-right: auto;
 }
 
+section > div > p {
+    height: 300px;
+    overflow: hidden;
+}
+
+section > div > p:hover {
+    overflow-y: scroll;
+    cursor: s-resize;
+}
+
 .card {
     border: 1px solid black;
     margin: 1rem;
@@ -29,6 +39,7 @@ section {
 .cardtitle {
     position: relative;
     margin-bottom: 2.5em;
+    text-align: center;
 }
 
 .cardtitle h2 {
@@ -73,6 +84,12 @@ section {
     background-color: #2274A5;
     color: #fff;
 
+}
+
+.categories {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    margin: 1rem;
 }
 
 /* Mini-library styling from lecture with some added bits */
@@ -136,6 +153,14 @@ section {
         width: 100%;
     }
 
+    .d-lg-block {
+        display: block;
+    }
+
+    .d-lg-none {
+        display: none;
+    }
+
 
 }
 
@@ -194,6 +219,13 @@ section {
         width: 100%;
     }
 
+    .d-md-block {
+        display: block;
+    }
+
+    .d-md-none {
+        display: none;
+    }
 }
 
 /* Mobile view */
@@ -249,6 +281,14 @@ section {
 
     .col-sm-12 {
         width: 100%;
+    }
+
+    .d-sm-block {
+        display: block;
+    }
+
+    .d-sm-none {
+        display: none;
     }
 
 }
